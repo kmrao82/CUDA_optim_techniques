@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\raoka\\source\\repos\\CUDA_MatMul\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD357CCD-E350-25A7-1E34-B2D34C9CF24F}|CUDA_MatMul\\CUDA_MatMul.vcxproj|C:\\Users\\raoka\\source\\repos\\CUDA_MatMul\\CUDA_MatMul\\matmul.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FD357CCD-E350-25A7-1E34-B2D34C9CF24F}|CUDA_MatMul\\CUDA_MatMul.vcxproj|solutionrelative:CUDA_MatMul\\matmul.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "matmul.cu",
+              "DocumentMoniker": "C:\\Users\\raoka\\source\\repos\\CUDA_MatMul\\CUDA_MatMul\\matmul.cu",
+              "RelativeDocumentMoniker": "CUDA_MatMul\\matmul.cu",
+              "ToolTip": "C:\\Users\\raoka\\source\\repos\\CUDA_MatMul\\CUDA_MatMul\\matmul.cu",
+              "RelativeToolTip": "CUDA_MatMul\\matmul.cu",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAAANAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-01T00:17:16.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
