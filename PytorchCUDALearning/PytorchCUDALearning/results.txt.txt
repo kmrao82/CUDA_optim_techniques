@@ -1,0 +1,5 @@
+vecAdd experimentations:
+1) Increased occupancy by adding cudaOccupancyMaxPotentialBlockSize function and code. Occupancy is 40%.
+2) Increased sample size to 1M additions to see occupancy go from 40% to 83.33% - 35.07microsecs.compute throughput is 17.28%(Compute throughput)
+3) Adding Shared memory code since we are memory bound. Improved occupancy to 87.84% - 33.34microsecs, compute throughput is 34.21%
+4. Global mem to float4 brings down all metrics - Compute is 33.02 microsecs, compute(SM%) is 4.32, occupancy is 78.96%

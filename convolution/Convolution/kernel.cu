@@ -46,6 +46,8 @@ torch::Tensor convolution_2D_basic_cuda(torch::Tensor input, torch::Tensor filte
     int threads = 256;
     int blocks = (size + threads - 1) / threads;
 
+
+
     // Launch kernel
     add_arrays_kernel << <blocks, threads >> > (c_ptr, a_ptr, b_ptr, size);
 

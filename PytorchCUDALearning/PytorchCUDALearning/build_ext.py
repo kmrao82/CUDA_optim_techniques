@@ -1,3 +1,4 @@
+import torch
 from torch.utils.cpp_extension import load
 
 # This builds the extension in-place
@@ -14,8 +15,8 @@ if __name__ == "__main__":
     import torch 
     
     # Create test tensors on GPU
-    a = torch.rand(1000, device="cuda").float()
-    b = torch.rand(1000, device="cuda").float()
+    a = torch.rand(1000000, device="cuda").float()
+    b = torch.rand(1000000, device="cuda").float()
     
     # Call your custom kernel
     c_custom = custom_cuda.add_arrays(a, b)

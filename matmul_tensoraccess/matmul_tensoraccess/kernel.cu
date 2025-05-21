@@ -68,6 +68,8 @@ int main()
 	float* h_c = new float[M * N];
 	float* h_c_ref = new float[M * N];
 
+	/*int blockSize;
+	int */
 	//Initialize matrices
 	for (int i = 0;i < M * K;i++)
 		h_a[i] = __float2half(1.0f);
@@ -86,7 +88,7 @@ int main()
 	cudaMemcpy(d_a, h_a, M * K * sizeof(half), cudaMemcpyHostToDevice);
 	cudaMemcpy(d_b, h_b, N * K * sizeof(half), cudaMemcpyHostToDevice);
 	dim3 gridDim((M + WMMA_M -1)/ WMMA_M, (N + WMMA_N-1) / WMMA_N);
-	dim3 blockDim(32,8);  //Warp sized blocks
+	dim3 blockDim(16,16);  //Warp sized blocks
 
 	wmma_matmul << <gridDim,blockDim >> > (d_a, d_b, d_c);
 
